@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Reload by Altaf",
+  "version": "1.0",
+  "author": "Md Altaf Hossen",
+  "icons": {
+    "16": "download.jpeg",
+    "48": "download.jpeg",
+    "128": "download.jpeg"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}
